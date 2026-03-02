@@ -76,7 +76,7 @@ export function ChangeBackground() {
             </SheetDescription>
             <button
               onClick={() => setOpen(false)}
-              className="p-0 border-none bg-transparent cursor-pointer shrink-0 hover:opacity-70 active:opacity-50 transition-opacity duration-150"
+              className="p-0 border-none bg-transparent cursor-pointer shrink-0"
             >
               <SvgIcon svg={iconCloseSvg} className="w-6 h-6 text-black" />
             </button>
